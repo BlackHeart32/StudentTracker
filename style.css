@@ -1,3 +1,43 @@
 :root{
     background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.btn{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    border: 0.1rem solid #3e99b4;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color:#3e99b4;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem rgba(10,10, 100, 0.5);
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
 }
