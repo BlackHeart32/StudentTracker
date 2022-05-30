@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="formBox">
-                <form action="">
-                    <label for="fName">First Name:</label>
-                    <input type="text" id="fname" name="fname"></input><br></br>
-                    <label for="lName">Last Name:</label>
-                    <input type="text" id="lname" name="lname"><br></br>
-                    <input type="button" onclick="send()">
-                </form>
-            </div>
+    <div class="container">
+        <div class="formBox">
+            <form id="studentform">
+                <input type="text" id="fname" placeholder="First Name"></input>
+                <input type="text" id="lname" placeholder="Last Name"></input>
+                <button type="submit" id="registerBtn" class="btn" onclick="register(event)" disabled>OK</button>
+            </form>
+        </div>
+    </div>
+    <link rel="stylesheet" href="style.css">
+    <script type = "module" src="registration.js"></script>
 </body>
+
 </html>
