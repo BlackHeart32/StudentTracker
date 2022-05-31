@@ -118,3 +118,8 @@ input{
 input::placeholder{
     color: #aaa;
 }
+
+.horizontalbox>*{
+    width: 10rem;
+    
+}

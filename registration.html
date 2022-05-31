@@ -14,12 +14,17 @@
             <form id="studentform">
                 <input type="text" id="fname" placeholder="First Name"></input>
                 <input type="text" id="lname" placeholder="Last Name"></input>
-                <button type="submit" id="registerBtn" class="btn" onclick="register(event)" disabled>OK</button>
+                <div class="horizontalbox">
+                    <input type="text" id="age" placeholder="Age"></input>
+                    <input type="text" id="grade" placeholder="Grade"></input>
+                </div>
+                <button type="submit" id="registerBtn" class="btn" onclick="newStudent(event)" disabled>OK</button>
+                
             </form>
         </div>
     </div>
     <link rel="stylesheet" href="style.css">
-    <script type = "module" src="registration.js"></script>
+    <script src="registration.js"></script>
 </body>
 
 </html>
