@@ -20,22 +20,15 @@ newStudent = (e) =>{
     fName: fname.value,
     lName: lname.value,
     age: studentage.value,
-    grade: studentgrade.value,
-    fullname: function(){
-        return this.name + " " + this.lname;
-    }
-
-    
+    grade: studentgrade.value   
     };
 
     studentList.push(student);
 
-    studentList.sort((a, b) => b.score - a.score);
+    //studentList.sort((a, b) => b.age - a.score.age);
 
     localStorage.setItem("studentList", JSON.stringify(studentList));
 
-    console.log("Registered");
-    console.log(student.fullname());
     
     window.location.assign("index.html")
 
