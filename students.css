@@ -12,13 +12,14 @@
 .registered_student:hover{
     transform: scale(1.025);
 }
+/*Popup*/
 /*Popup arrow*/
-/* .popup{
+.popup{
     position: relative;
     display: inline-block;
     cursor: pointer;
-} */
 
+}
 /*The popup*/
 .popup .popuptext{
     visibility: hidden;
