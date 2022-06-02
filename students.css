@@ -25,7 +25,7 @@
     visibility: hidden;
     width: 160px;
     background-color: #555;
-    color: fff;
+    color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 8px 0;
@@ -43,7 +43,8 @@
     top: 100%;
     left: 50%;
     margin-left: -5px;
-    border-width: 5px;
+    /*make border with 5px*/
+    border-width: 50px;
     border-style: solid;
     border-color: #555 transparent transparent transparent;
 }
@@ -52,6 +53,7 @@
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
+    color: red;
 }
 
 /*Fading animation*/
