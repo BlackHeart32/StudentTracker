@@ -17,6 +17,8 @@ function showStudent() {
     const student = document.getElementsByClassName("registered_student");
     const info = document.getElementById("studentinfo");
     
-    info.innerHTML = `<p>${student}</p>`
+    
+
+    info.innerHTML = `<p>${studentsArray[1][fName]}</p>`
     
 }; 
